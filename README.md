@@ -1,2 +1,0 @@
-# DeutscheBank
-Technical test
