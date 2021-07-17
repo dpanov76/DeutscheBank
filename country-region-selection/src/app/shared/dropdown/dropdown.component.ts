@@ -7,7 +7,8 @@ import {Component, Input} from '@angular/core';
 })
 export class DropdownComponent {
   @Input() items: string[] = [];
-  onSelect( country: sctring ): void {
+
+  onSelect( country: string ): void {
     //dispatch select country action
   }
 }

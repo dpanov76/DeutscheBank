@@ -2,16 +2,16 @@ import { Country } from "../../models/country";
 import { Region } from "../../models/region";
 
 
-export interface ICountriesState {
+export interface IRegionsState {
   countries: Country[];
   regions: string[];
   selectedCountry: string;
-  region: string;
+  selectedRegion: string;
 }
 
-export const initialCountriesState:  ICountriesState = {
+export const RegionsState:  IRegionsState = {
   regions: ['asia','europe'],
   countries: [],
   selectedCountry: '',
-  region: ''
+  selectedRegion: ''
 };

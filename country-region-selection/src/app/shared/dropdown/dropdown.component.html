@@ -1,1 +1,6 @@
 <p>dropdown works!</p>
+items {{ items[0] }}
+<select>
+  <option>Select Region</option>
+  <option *ngFor="let item of (items | async)">item</option>
+</select>
